@@ -1,16 +1,94 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Javascript</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>My CV</title>
 </head>
 <body>
-  <h1>Javascript</h1>
-  <p>Hello </p>
+  <main>
+    <section class="left">
+      <div class="left-image">
+        <img src="Ира_170.JPG" alt="">
+        <div class="h2">
+          <h2>Pushkina Irina</h2>
+        </div>
+      </div>
+      <div class="personal">
+        <ul>
+          <li class="position">OA Engineer</li>
+          <li>Russia, Sochi</li>
+          <li>irapushkina@list.ru</li>
+          <li>+ 7 961 159 26 27</li>
+        </ul>
+        <hr>
+      </div>
+      <div class="skills">
+        <h3>Skills</h3>
+        <ul>
+          <li><p>API testing</p> <progress max="100" value="80"> </progress> </li>
+          <li><p>Functional testing</p>   <progress max="100" value="90"> </progress>  </li>
+          <li><p>SQL knowleges</p><progress max="100" value="70"> </progress></li>
+        </ul>
+      </div>
+      <div class="languages">
+        <h3>Languages</h3>
+        <ul>
+          <li><p>Russian</p> <progress max="100" value="100"> </progress> </li>
+          <li><p>English</p>   <progress max="100" value="70"> </progress>  </li>
+          <li><p>German</p><progress max="100" value="60"> </progress></li>
+        </ul>
+      </div>
 
-  <script src="script.js" type="text/javascript"></script>
-
+    </section>
+    <section class="right">
+      <div class="experience">
+        <h1>Work Experience</h1>
+        <ul>
+          <li class="place">QA-engineer / EPAM Systems Inc.</li>
+          <li class="date">March 2021 — current (1 year 1 month) </li>
+          <li>Testing of complex bank system, using Black Box Testing Techniques</li>
+          <li>Responsible for GUI and Functional Testing of desktop applications</li>
+          <li>API REST testing (Postman) of web services</li>
+          <li>Manage test requirements and assign traceability with user stories</li>
+          <li>Integration testing with IBM MQ and Artemis MQ</li>
+          <li>Regression and conformation testing</li>
+          <li>Writing of SQL requests to check working of procedures and functions</li>
+          <li>Designed, developed, implemented and maintained artefacts for the client application (checklist, test
+            cases and bug reports) on JIRA and Confluents</li>
+          <li>Author test scenarios, test cases and reviewing the same authored by juniors</li>
+          <li>Investigation of incidents from prod to sort out the root cause of the problems</li>
+          <li> Presenting of new functional DEMO for customers</li>
+          <li>Test execution of test plan on Test IT</li>
+        </ul>
+        <ul>
+          <li class="place">QA-engineer / Exactpro </li>
+          <li class="date">June 2020 — March 2021 (10 months) </li>
+          <li>Functional testing of web application</li>
+          <li>API REST testing (Postman)</li>
+          <li>Requirements analysis</li>
+          <li>New feature testing</li>
+          <li>Front-end (UI) testing(Cross browsing and cross-platform testing)</li>
+          <li>Regression and conformation testing</li>
+          <li>SQL and NoSQL(Mongo);</li>
+          <li>Designed, developed, implemented and maintained artefacts for the client application (checklist, test
+            cases and bug reports) on JIRA and Confluents</li>
+        </ul>
+      </div>
+      <div class="education">
+          <h1>Education</h1>
+          <ul>
+            <li class="place"> Kostroma State Technological University, Kostroma </li>
+            <li class="date"> Faculty of economic, Marketing / 2013 </li>
+          </ul>
+      </div>
+      
+    </section>
+  </main>
+  
 </body>
 </html>
